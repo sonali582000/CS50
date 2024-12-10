@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Advance Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="links">
+      <a href="index.html">back</a>
+    </div>
+    <div>
+      <form
+        class="advancedSearch-container"
+        action="https://www.google.com/search"
+      >
+        <table>
+          <tbody>
+            <tr>
+              <td><label>all these words:</label></td>
+              <td><input type="text" name="as_q" /></td>
+            </tr>
+            <tr>
+              <td><label>this exact word or phrase:</label></td>
+              <td><input type="text" name="as_epq" /></td>
+            </tr>
+            <tr>
+              <td><label>any of these words:</label></td>
+              <td><input type="text" name="as_oq" /></td>
+            </tr>
+            <tr>
+              <td><label>none of these words</label></td>
+              <td><input type="text" name="as_eq" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <input type="submit" value="Advance Search" id="advancedSearch-btn" />
+      </form>
+    </div>
+  </body>
+</html>
